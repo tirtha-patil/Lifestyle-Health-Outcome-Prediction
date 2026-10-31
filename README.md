@@ -18,6 +18,7 @@ An end-to-end Machine Learning project that predicts an individual's health risk
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Repository Structure](#-repository-structure)
+- [Installation & Quickstart](#️-installation--quickstart)
 - [Dataset](#-dataset)
 - [Machine Learning Models & Benchmark Comparison](#-machine-learning-models--benchmark-comparison)
 - [Best Model Performance](#-best-model-performance)
@@ -90,6 +91,43 @@ Lifestyle-Health-Outcome-Prediction/
 ├── LICENSE                                 # MIT License
 ├── README.md                               # Project documentation
 └── requirements.txt                        # Python dependencies
+```
+
+---
+
+## ⚙️ Installation & Quickstart
+
+### Prerequisites
+- Python 3.9 or higher
+- Git
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/tirtha-patil/Lifestyle-Health-Outcome-Prediction.git
+cd Lifestyle-Health-Outcome-Prediction
+```
+
+### 2. Set Up Virtual Environment
+```bash
+# Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+
+# Windows (Command Prompt / PowerShell)
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Install Required Packages
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Run the Pipeline
+Launch Jupyter Notebook to execute the end-to-end model training, evaluation, and SHAP analysis:
+```bash
+jupyter notebook Notebook/"An Explainable AI Framework for Interpreting Lifestyle Behaviors and Health Outcomes.ipynb"
 ```
 
 ---
