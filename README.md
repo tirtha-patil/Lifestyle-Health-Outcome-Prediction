@@ -17,6 +17,7 @@ An end-to-end Machine Learning project that predicts an individual's health risk
 - [Overview](#-overview)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
+- [Repository Structure](#-repository-structure)
 - [Dataset](#-dataset)
 - [Machine Learning Models Evaluated](#-machine-learning-models-evaluated)
 - [Best Model Performance](#-best-model-performance)
@@ -60,6 +61,36 @@ The project evaluates multiple machine learning algorithms and selects the best-
 - Pickle
 - Google Colab
 - Jupyter Notebook
+
+---
+
+## 📂 Repository Structure
+
+```text
+Lifestyle-Health-Outcome-Prediction/
+├── Dataset/                                # Raw and processed health & lifestyle datasets
+│   ├── health_lifestyle_dataset.csv
+│   ├── health_processed.csv
+│   ├── Obesity prediction.csv
+│   ├── obesity_processed.csv
+│   ├── Sleep_health_and_lifestyle_dataset.csv
+│   ├── sleep_processed.csv
+│   └── world_health_data.csv
+├── Images/                                 # Visualizations, EDA charts & SHAP plots
+│   ├── img 1.png - img 13.png
+├── Notebook/                               # Jupyter notebook with complete ML & XAI pipeline
+│   └── An Explainable AI Framework for Interpreting Lifestyle Behaviors and Health Outcomes.ipynb
+├── Results/                                # Exported models and benchmark evaluations
+│   ├── best_model.pkl                      # Trained Gradient Boosting model artifact
+│   ├── gender_encoder.pkl                  # Fitted LabelEncoder for gender
+│   ├── target_encoder.pkl                  # Fitted LabelEncoder for target risk classes
+│   └── model_comparison.csv                # Comparative performance metrics across models
+├── .gitattributes                          # Git attributes and line ending configuration
+├── .gitignore                              # Git ignore rules for Python/Jupyter
+├── LICENSE                                 # MIT License
+├── README.md                               # Project documentation
+└── requirements.txt                        # Python dependencies
+```
 
 ---
 
