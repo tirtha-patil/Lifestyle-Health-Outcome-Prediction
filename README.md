@@ -2,7 +2,29 @@ Explainable Machine Learning framework for lifestyle-based health outcome predic
 
 # 🩺 Lifestyle-Based Health Outcome Prediction using Explainable AI (XAI)
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn%20%7C%20Gradient%20Boosting-orange)
+![Explainable AI](https://img.shields.io/badge/XAI-SHAP-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 An end-to-end Machine Learning project that predicts an individual's health risk based on lifestyle and physiological factors. The system integrates Explainable AI (SHAP) to provide transparent predictions by highlighting the factors influencing each prediction.
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Dataset](#-dataset)
+- [Machine Learning Models Evaluated](#-machine-learning-models-evaluated)
+- [Best Model Performance](#-best-model-performance)
+- [Visualizations](#-visualizations)
+- [Workflow](#-workflow)
+- [Results](#-results)
+- [Future Improvements](#-future-improvements)
+- [License](#-license)
 
 ---
 
