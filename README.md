@@ -96,24 +96,27 @@ Lifestyle-Health-Outcome-Prediction/
 
 ## 📊 Dataset
 
-Health Lifestyle Dataset
+The core analysis uses the **Health Lifestyle Dataset** (~100,000 records) along with cross-referenced datasets on sleep, obesity, and global health metrics:
 
-Approximately **100,000 records** containing:
+### Feature Schema & Data Dictionary
 
-- Age
-- Gender
-- BMI
-- Daily Steps
-- Sleep Hours
-- Water Intake
-- Calories Consumed
-- Smoking Status
-- Alcohol Consumption
-- Resting Heart Rate
-- Blood Pressure
-- Cholesterol
-- Family History
-- Disease Risk
+| Feature Name | Type | Description | Unit / Values |
+| :--- | :---: | :--- | :--- |
+| `gender` | Categorical | Biological sex of individual | Male, Female |
+| `age` | Numerical | Age in years | Years |
+| `bmi` | Numerical | Body Mass Index | kg/m² |
+| `daily_steps` | Numerical | Daily physical activity in steps | Steps / day |
+| `sleep_hours` | Numerical | Average sleep duration per night | Hours |
+| `water_intake_l` | Numerical | Daily fluid consumption | Liters |
+| `calories_consumed` | Numerical | Daily caloric intake | kcal |
+| `smoker` | Binary | Tobacco smoking status | 0 = No, 1 = Yes |
+| `alcohol` | Binary | Alcohol consumption habit | 0 = No, 1 = Yes |
+| `resting_hr` | Numerical | Resting heart rate | Beats per minute (bpm) |
+| `systolic_bp` | Numerical | Systolic blood pressure | mmHg |
+| `diastolic_bp` | Numerical | Diastolic blood pressure | mmHg |
+| `cholesterol` | Numerical | Total serum cholesterol level | mg/dL |
+| `family_history` | Binary | Family history of cardiovascular/lifestyle disease | 0 = No, 1 = Yes |
+| `disease_risk` | Binary (Target) | Categorized health outcome risk level | 0 = Low / Negative, 1 = High / Positive |
 
 ---
 
