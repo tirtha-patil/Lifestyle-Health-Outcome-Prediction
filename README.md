@@ -19,7 +19,7 @@ An end-to-end Machine Learning project that predicts an individual's health risk
 - [Tech Stack](#-tech-stack)
 - [Repository Structure](#-repository-structure)
 - [Dataset](#-dataset)
-- [Machine Learning Models Evaluated](#-machine-learning-models-evaluated)
+- [Machine Learning Models & Benchmark Comparison](#-machine-learning-models--benchmark-comparison)
 - [Best Model Performance](#-best-model-performance)
 - [Visualizations](#-visualizations)
 - [Workflow](#-workflow)
@@ -117,14 +117,18 @@ Approximately **100,000 records** containing:
 
 ---
 
-## 🤖 Machine Learning Models Evaluated
+## 🤖 Machine Learning Models & Benchmark Comparison
 
-- Gradient Boosting ✅
-- XGBoost
-- CatBoost
-- Random Forest
-- Extra Trees Classifier
-- Multi-Layer Perceptron (MLP)
+Six supervised classification algorithms were trained and evaluated on test datasets:
+
+| Model | Accuracy | Precision | Recall | F1 Score | Status |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Gradient Boosting** | **75.18%** | **0.5652** | **0.7518** | **0.6453** | **Selected Best Model** 🏆 |
+| Random Forest | 75.17% | 0.5652 | 0.7517 | 0.6452 | Evaluated |
+| Extra Trees | 75.17% | 0.6273 | 0.7517 | 0.6453 | Evaluated |
+| CatBoost | 75.15% | 0.6480 | 0.7515 | 0.6458 | Evaluated |
+| Multi-Layer Perceptron (MLP) | 75.11% | 0.5797 | 0.7511 | 0.6450 | Evaluated |
+| XGBoost | 74.70% | 0.6227 | 0.7470 | 0.6467 | Evaluated |
 
 ---
 
