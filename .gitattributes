@@ -1,0 +1,18 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Document and configuration files
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Explicit binary files
+*.pkl binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.pdf binary
